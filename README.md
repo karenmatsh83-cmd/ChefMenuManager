@@ -1,56 +1,48 @@
-# Welcome to your Expo app 👋
+# Chef's Menu Manager
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Project Description
 
-## Get started
+Chef's Menu Manager is a React Native mobile application designed for a restaurant chef to manage menu items easily.
 
-1. Install dependencies
+The application allows the chef to enter and manage important menu information such as the dish name, description, course and price.
 
-   ```bash
-   npm install
-   ```
+## Main Features
 
-2. Start the app
+- Add new menu items
+- Enter dish name and description
+- Select a course:
+  - Starter
+  - Main Course
+  - Dessert
+- Enter the price in South African Rand (R)
+- Display multiple menu items
+- Automatically update the menu when an item is added
+- Required-field validation
+- Display error messages when information is missing or incorrect
+- Confirmation message after successfully adding a menu item
+- Display a message when there are no menu items
 
-   ```bash
-   npx expo start
-   ```
+## Technologies Used
 
-In the output, you'll find options to open the app in a
+- React Native
+- TypeScript
+- Expo
+- Expo Router
+- Visual Studio Code
+- GitHub
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Example Menu Items
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The application can be tested using:
 
-## Get a fresh project
+1. Chicken Alfredo – Main Course – R120
+2. Garlic Bread – Starter – R45
+3. Chocolate Brownie – Dessert – R65
 
-When you're ready, run:
+## Purpose
 
-```bash
-npm run reset-project
-```
+The purpose of this application is to provide a simple and user-friendly way for a restaurant chef to manage menu information digitally instead of relying on paper records.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Developer
 
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Chef's Menu Manager was developed as part of the MAST5112 Portfolio of Evidence.
