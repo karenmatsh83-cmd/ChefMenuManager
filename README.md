@@ -1,48 +1,105 @@
-# Chef's Menu Manager
+Chef's Menu Manager
 
-## Project Description
+Project Description
 
-Chef's Menu Manager is a React Native mobile application designed for a restaurant chef to manage menu items easily.
+Chef's Menu Manager is a mobile application developed to help restaurant staff manage menu items. The application allows users to add, view, edit and delete dishes, search for menu items, filter dishes by course and view menu statistics.
 
-The application allows the chef to enter and manage important menu information such as the dish name, description, course and price.
-
-## Main Features
-
-- Add new menu items
-- Enter dish name and description
-- Select a course:
-  - Starter
-  - Main Course
-  - Dessert
-- Enter the price in South African Rand (R)
-- Display multiple menu items
-- Automatically update the menu when an item is added
-- Required-field validation
-- Display error messages when information is missing or incorrect
-- Confirmation message after successfully adding a menu item
-- Display a message when there are no menu items
-
-## Technologies Used
+Technologies Used
 
 - React Native
-- TypeScript
 - Expo
-- Expo Router
+- TypeScript
 - Visual Studio Code
 - GitHub
 
-## Example Menu Items
+Part 2 Features
 
-The application can be tested using:
+- Add new menu items.
+- Enter dish names and descriptions.
+- Select a course category.
+- Enter menu item prices.
+- Display saved menu items.
+- Validate required fields.
 
-1. Chicken Alfredo – Main Course – R120
-2. Garlic Bread – Starter – R45
-3. Chocolate Brownie – Dessert – R65
+Part 3 Enhancements
 
-## Purpose
+The following features were added and improved in Part 3:
 
-The purpose of this application is to provide a simple and user-friendly way for a restaurant chef to manage menu information digitally instead of relying on paper records.
+1. Edit Menu Items
 
-## Developer
+Users can select an existing dish, change its details and save the updated information.
 
-Chef's Menu Manager was developed as part of the MAST5112 Portfolio of Evidence.
+2. Delete Menu Items
+
+Users can delete menu items. A confirmation message is displayed before the item is removed.
+
+3. Search Menu Items
+
+Users can search for dishes by entering the dish name or part of the name.
+
+4. Filter Menu Items
+
+Users can filter the menu according to:
+
+- Starter
+- Main Course
+- Dessert
+
+5. Clear Search and Filters
+
+Users can clear the search field and selected course filter to display the full menu again.
+
+6. Menu Statistics
+
+The application displays:
+
+- Total number of menu items.
+- Average menu item price.
+- Number of Starter items.
+- Number of Main Course items.
+- Number of Dessert items.
+
+7. Improved Validation
+
+The application checks that required fields are completed, prices are valid and greater than zero, and duplicate dish names are not added.
+
+Testing
+
+The application was tested to check that:
+
+- Menu items can be added successfully.
+- Existing items can be edited.
+- Items can be deleted after confirmation.
+- Search displays matching dishes.
+- Course filters display the correct items.
+- Clear resets the search and filter.
+- Statistics update when menu items change.
+- Validation messages appear when incorrect or incomplete information is entered.
+
+Known Limitation
+
+Menu items are currently stored in application state. They may not remain available after the application is fully restarted or refreshed. Persistent storage can be added in a future version.
+
+GitHub Repository
+
+https://github.com/karenmatsh83-cmd/ChefMenuManager
+
+Developer
+
+Student Name: Koketso M
+
+Student Number: ST105222956
+
+Module: MAST5112
+
+Part 3 Change Log
+
+- Added the ability to edit menu items.
+- Added delete functionality with confirmation.
+- Added dish name searching.
+- Added course filtering.
+- Added a clear filters option.
+- Added menu statistics.
+- Improved form validation.
+- Added duplicate dish name checking.
+- Improved application usability and feedback.
